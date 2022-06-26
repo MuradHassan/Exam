@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor:#f25454;
+}
+.hid-style .content{
+    position: relative;
+}
+.hid-style hr:hover{
+    width: 80px;
+}
+.hid-style .content h2{
+    font-size: 80px;
+    opacity: 0.1;
+    color: #555;
+}
+.hid-style .content h3{
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hid-style hr{
+    width: 40px;
+    height: 2px;
+    color: black;
+    transition: 0.5s;
+}
+
+/*nav style*/
+    #home .nav-item{
+    padding-left: 10px;
+    }
+    #home .nav-item .nav-link.active{
+        color:var(--maincolor) ;
+    }
+    #home .nav-item .nav-link:hover{
+        color:var(--maincolor) ;
+    }
+    #home .nav-item .nav-link{
+        transition: .5s all;
+    }
+/*slideshow style*/
+    #carouselExampleCaptions img{
+        height: 100vh !important;
+        size: 100% 100%;
+    }
+    #carouselExampleCaptions h1{
+        font-size: 80px;
+        font-weight: bold;
+    }
+/*about style*/
+    #about .progress{
+        height: 5px;
+    }
+    #about .progress-bar{
+        background-color: var(--maincolor);
+    }
+/*team style*/
+    #team .img-lyar{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    #team .card{
+        border-style: none;
+    }
+    #team .card .img-lyar .murad{
+        background-color: #f25454;
+        width: 100%;
+        height: 100%;
+    }
+    #team img{
+        transition: all 0.5s;
+    }
+    #team img:hover{
+        transform: scale(1.2);
+    }
+    #team button{
+        background-color: var(--maincolor);
+        border-style: none;
+        font-size: 14px;
+        padding: 0 40px;
+    }
+/*Services style*/
+    #Services{
+        background-color: #fafafa;
+    }
+    #Services .card{
+        background-color: #fafafa;
+        border-style: none;
+    }
+    #Services .card i{
+        color: var(--maincolor);
+    }
+/*answers style*/
+    #answers{
+        background-color: #fafafa;
+    }
+    #answers .card{
+        background-color: #fafafa;
+        border-style: none;
+    }
+    #answers .card i{
+        color: var(--maincolor);
+    }
+    #answers .card hr{
+        margin: auto;
+        width: 90%;
+    }
+    #answers button{
+        background-color: var(--maincolor);
+        border: none;
+        font-size: 14px;
+        padding: 13px 40px;
+    }
+    /*footer style*/
+    .footer{
+        background-color: #333;
+
+    }
